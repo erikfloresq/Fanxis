@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08310AE125AFACBD00C7730B /* FanxisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08310AE025AFACBD00C7730B /* FanxisApp.swift */; };
+		08310AE325AFACBD00C7730B /* FXMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08310AE225AFACBD00C7730B /* FXMapView.swift */; };
+		08310AE525AFACC000C7730B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08310AE425AFACC000C7730B /* Assets.xcassets */; };
+		08310AE825AFACC000C7730B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08310AE725AFACC000C7730B /* Preview Assets.xcassets */; };
+		08310AEA25AFACC000C7730B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08310AE925AFACC000C7730B /* Persistence.swift */; };
+		08310AED25AFACC000C7730B /* Fanxis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08310AEB25AFACC000C7730B /* Fanxis.xcdatamodeld */; };
+		08310AF825AFACC100C7730B /* FanxisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08310AF725AFACC100C7730B /* FanxisTests.swift */; };
+		08310B0325AFACC100C7730B /* FanxisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08310B0225AFACC100C7730B /* FanxisUITests.swift */; };
+		08331C9A25AFB52A00AABED9 /* FXLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08331C9925AFB52A00AABED9 /* FXLocationManager.swift */; };
+		08331CA525B057F500AABED9 /* FXMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08331CA425B057F500AABED9 /* FXMapViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08310AF425AFACC100C7730B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08310AD525AFACBD00C7730B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08310ADC25AFACBD00C7730B;
+			remoteInfo = Fanxis;
+		};
+		08310AFF25AFACC100C7730B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08310AD525AFACBD00C7730B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08310ADC25AFACBD00C7730B;
+			remoteInfo = Fanxis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08310ADD25AFACBD00C7730B /* Fanxis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanxis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08310AE025AFACBD00C7730B /* FanxisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanxisApp.swift; sourceTree = "<group>"; };
+		08310AE225AFACBD00C7730B /* FXMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXMapView.swift; sourceTree = "<group>"; };
+		08310AE425AFACC000C7730B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08310AE725AFACC000C7730B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08310AE925AFACC000C7730B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		08310AEC25AFACC000C7730B /* Fanxis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fanxis.xcdatamodel; sourceTree = "<group>"; };
+		08310AEE25AFACC000C7730B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08310AF325AFACC100C7730B /* FanxisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanxisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08310AF725AFACC100C7730B /* FanxisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanxisTests.swift; sourceTree = "<group>"; };
+		08310AF925AFACC100C7730B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08310AFE25AFACC100C7730B /* FanxisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanxisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08310B0225AFACC100C7730B /* FanxisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanxisUITests.swift; sourceTree = "<group>"; };
+		08310B0425AFACC100C7730B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08331C9925AFB52A00AABED9 /* FXLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXLocationManager.swift; sourceTree = "<group>"; };
+		08331CA425B057F500AABED9 /* FXMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXMapViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08310ADA25AFACBD00C7730B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08310AF025AFACC100C7730B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08310AFB25AFACC100C7730B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08310AD425AFACBD00C7730B = {
+			isa = PBXGroup;
+			children = (
+				08310ADF25AFACBD00C7730B /* Fanxis */,
+				08310AF625AFACC100C7730B /* FanxisTests */,
+				08310B0125AFACC100C7730B /* FanxisUITests */,
+				08310ADE25AFACBD00C7730B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08310ADE25AFACBD00C7730B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08310ADD25AFACBD00C7730B /* Fanxis.app */,
+				08310AF325AFACC100C7730B /* FanxisTests.xctest */,
+				08310AFE25AFACC100C7730B /* FanxisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08310ADF25AFACBD00C7730B /* Fanxis */ = {
+			isa = PBXGroup;
+			children = (
+				08331C9825AFB51C00AABED9 /* Services */,
+				08310B1825AFAFC600C7730B /* Resources */,
+				08310B1725AFAF6500C7730B /* Repository */,
+				08310B1625AFAF6000C7730B /* Map */,
+				08310AE025AFACBD00C7730B /* FanxisApp.swift */,
+				08310AEE25AFACC000C7730B /* Info.plist */,
+				08310AE625AFACC000C7730B /* Preview Content */,
+			);
+			path = Fanxis;
+			sourceTree = "<group>";
+		};
+		08310AE625AFACC000C7730B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08310AE725AFACC000C7730B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08310AF625AFACC100C7730B /* FanxisTests */ = {
+			isa = PBXGroup;
+			children = (
+				08310AF725AFACC100C7730B /* FanxisTests.swift */,
+				08310AF925AFACC100C7730B /* Info.plist */,
+			);
+			path = FanxisTests;
+			sourceTree = "<group>";
+		};
+		08310B0125AFACC100C7730B /* FanxisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08310B0225AFACC100C7730B /* FanxisUITests.swift */,
+				08310B0425AFACC100C7730B /* Info.plist */,
+			);
+			path = FanxisUITests;
+			sourceTree = "<group>";
+		};
+		08310B1625AFAF6000C7730B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				08310AE225AFACBD00C7730B /* FXMapView.swift */,
+				08331CA425B057F500AABED9 /* FXMapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		08310B1725AFAF6500C7730B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				08310AEB25AFACC000C7730B /* Fanxis.xcdatamodeld */,
+				08310AE925AFACC000C7730B /* Persistence.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		08310B1825AFAFC600C7730B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08310AE425AFACC000C7730B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08331C9825AFB51C00AABED9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				08331C9925AFB52A00AABED9 /* FXLocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08310ADC25AFACBD00C7730B /* Fanxis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08310B0725AFACC100C7730B /* Build configuration list for PBXNativeTarget "Fanxis" */;
+			buildPhases = (
+				08310AD925AFACBD00C7730B /* Sources */,
+				08310ADA25AFACBD00C7730B /* Frameworks */,
+				08310ADB25AFACBD00C7730B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fanxis;
+			productName = Fanxis;
+			productReference = 08310ADD25AFACBD00C7730B /* Fanxis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08310AF225AFACC100C7730B /* FanxisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08310B0A25AFACC100C7730B /* Build configuration list for PBXNativeTarget "FanxisTests" */;
+			buildPhases = (
+				08310AEF25AFACC100C7730B /* Sources */,
+				08310AF025AFACC100C7730B /* Frameworks */,
+				08310AF125AFACC100C7730B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08310AF525AFACC100C7730B /* PBXTargetDependency */,
+			);
+			name = FanxisTests;
+			productName = FanxisTests;
+			productReference = 08310AF325AFACC100C7730B /* FanxisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08310AFD25AFACC100C7730B /* FanxisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08310B0D25AFACC100C7730B /* Build configuration list for PBXNativeTarget "FanxisUITests" */;
+			buildPhases = (
+				08310AFA25AFACC100C7730B /* Sources */,
+				08310AFB25AFACC100C7730B /* Frameworks */,
+				08310AFC25AFACC100C7730B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08310B0025AFACC100C7730B /* PBXTargetDependency */,
+			);
+			name = FanxisUITests;
+			productName = FanxisUITests;
+			productReference = 08310AFE25AFACC100C7730B /* FanxisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08310AD525AFACBD00C7730B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					08310ADC25AFACBD00C7730B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					08310AF225AFACC100C7730B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 08310ADC25AFACBD00C7730B;
+					};
+					08310AFD25AFACC100C7730B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 08310ADC25AFACBD00C7730B;
+					};
+				};
+			};
+			buildConfigurationList = 08310AD825AFACBD00C7730B /* Build configuration list for PBXProject "Fanxis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08310AD425AFACBD00C7730B;
+			productRefGroup = 08310ADE25AFACBD00C7730B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08310ADC25AFACBD00C7730B /* Fanxis */,
+				08310AF225AFACC100C7730B /* FanxisTests */,
+				08310AFD25AFACC100C7730B /* FanxisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08310ADB25AFACBD00C7730B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08310AE825AFACC000C7730B /* Preview Assets.xcassets in Resources */,
+				08310AE525AFACC000C7730B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08310AF125AFACC100C7730B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08310AFC25AFACC100C7730B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08310AD925AFACBD00C7730B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08310AED25AFACC000C7730B /* Fanxis.xcdatamodeld in Sources */,
+				08331CA525B057F500AABED9 /* FXMapViewModel.swift in Sources */,
+				08310AEA25AFACC000C7730B /* Persistence.swift in Sources */,
+				08331C9A25AFB52A00AABED9 /* FXLocationManager.swift in Sources */,
+				08310AE325AFACBD00C7730B /* FXMapView.swift in Sources */,
+				08310AE125AFACBD00C7730B /* FanxisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08310AEF25AFACC100C7730B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08310AF825AFACC100C7730B /* FanxisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08310AFA25AFACC100C7730B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08310B0325AFACC100C7730B /* FanxisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08310AF525AFACC100C7730B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08310ADC25AFACBD00C7730B /* Fanxis */;
+			targetProxy = 08310AF425AFACC100C7730B /* PBXContainerItemProxy */;
+		};
+		08310B0025AFACC100C7730B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08310ADC25AFACBD00C7730B /* Fanxis */;
+			targetProxy = 08310AFF25AFACC100C7730B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08310B0525AFACC100C7730B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08310B0625AFACC100C7730B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08310B0825AFACC100C7730B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fanxis/Preview Content\"";
+				DEVELOPMENT_TEAM = CPX7FN2K89;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fanxis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.erikflores.Fanxis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08310B0925AFACC100C7730B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fanxis/Preview Content\"";
+				DEVELOPMENT_TEAM = CPX7FN2K89;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fanxis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.erikflores.Fanxis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08310B0B25AFACC100C7730B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPX7FN2K89;
+				INFOPLIST_FILE = FanxisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.erikflores.FanxisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanxis.app/Fanxis";
+			};
+			name = Debug;
+		};
+		08310B0C25AFACC100C7730B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPX7FN2K89;
+				INFOPLIST_FILE = FanxisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.erikflores.FanxisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanxis.app/Fanxis";
+			};
+			name = Release;
+		};
+		08310B0E25AFACC100C7730B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPX7FN2K89;
+				INFOPLIST_FILE = FanxisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.erikflores.FanxisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fanxis;
+			};
+			name = Debug;
+		};
+		08310B0F25AFACC100C7730B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPX7FN2K89;
+				INFOPLIST_FILE = FanxisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.erikflores.FanxisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fanxis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08310AD825AFACBD00C7730B /* Build configuration list for PBXProject "Fanxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08310B0525AFACC100C7730B /* Debug */,
+				08310B0625AFACC100C7730B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08310B0725AFACC100C7730B /* Build configuration list for PBXNativeTarget "Fanxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08310B0825AFACC100C7730B /* Debug */,
+				08310B0925AFACC100C7730B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08310B0A25AFACC100C7730B /* Build configuration list for PBXNativeTarget "FanxisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08310B0B25AFACC100C7730B /* Debug */,
+				08310B0C25AFACC100C7730B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08310B0D25AFACC100C7730B /* Build configuration list for PBXNativeTarget "FanxisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08310B0E25AFACC100C7730B /* Debug */,
+				08310B0F25AFACC100C7730B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08310AEB25AFACC000C7730B /* Fanxis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08310AEC25AFACC000C7730B /* Fanxis.xcdatamodel */,
+			);
+			currentVersion = 08310AEC25AFACC000C7730B /* Fanxis.xcdatamodel */;
+			path = Fanxis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08310AD525AFACBD00C7730B /* Project object */;
+}
