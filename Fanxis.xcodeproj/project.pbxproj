@@ -103,6 +103,7 @@
 		08310ADF25AFACBD00C7730B /* Fanxis */ = {
 			isa = PBXGroup;
 			children = (
+				0865230425B1090D00B2F361 /* Gestures */,
 				08331C9825AFB51C00AABED9 /* Services */,
 				08310B1825AFAFC600C7730B /* Resources */,
 				08310B1725AFAF6500C7730B /* Repository */,
@@ -172,6 +173,13 @@
 				08331C9925AFB52A00AABED9 /* FXLocationManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		0865230425B1090D00B2F361 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
